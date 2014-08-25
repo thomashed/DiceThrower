@@ -3,24 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package logic;
 
 /**
  *
- * @author ThomasHedegaard
+ * @author Awesomeness
  */
-public class Test implements Runnable{
-
-        // Make a thread from this class!
+public class Counter {
     
-    @Override
-    public void run() {
-        System.out.println("I'm from " + Test.class.getName());
+    private final int timeLimit;
+    
+    public Counter(int limit){
+        this.timeLimit = limit;
     }
     
+    // Methods
     
-    
-    
-    
-
 }
