@@ -3,18 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package logic;
 
 /**
  *
  * @author ThomasHedegaard
  */
-public class Test {
-    // Make a thread from this class!
+public class Test implements Runnable{
+
+        // Make a thread from this class!
+    
+    @Override
+    public void run() {
+        System.out.println("I'm from " + Test.class.getName());
+    }
     
     
     
     
     
+
 }
